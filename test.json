@@ -1,0 +1,76 @@
+{
+    "propertyName": "Camden Buckhead",
+    "dateProcessed": "2025-09-03T13:00:12.122Z",
+    "propertyVendorId": "P-1234432211111",
+    "units": [
+        {
+            "unitName": "4001",
+            "locationId": "12121212",
+            "houseKey": "121212121",
+            "dropCell": "MW/WR/CPG/CXX",
+            "hsd_serviceability" : "S",
+            "addressLine1": "123 Smart St",
+            "addressLine2": null,
+            "state": "TX",
+            "zip": "12121",
+            "masa": true,
+            "cxb_badge_in_e360": true,
+            "cxb_enabled_in_xc2": true,
+            "bulkMasterCxBRateCodes": true,
+            "missingEvents": true,
+            "primaryResidentXC2": [
+                {
+                    "firstName": "charles",
+                    "lastName": "Q",
+                    "accountNumber": "121212121221"
+                }
+            ],
+            "accountHolderE360": [
+                {
+                    "firstName": "charles",
+                    "lastName": "Q",
+                    "accountNumber": "121212121121"
+                }
+            ],
+            "residentsNameMatch": true,
+            "accountNumbersMatch": true,
+            "accountCxBInE360": true,
+            "cxbRateCodes": true,
+            "onRampDevice": [
+                "08:A7:C0:3D:0A:61",
+                "48:BD:CE:D1:48:CC"
+            ],
+            "deviceOnline": {
+                "08:A7:C0:3D:0A:61": true,
+                "48:BD:CE:D1:48:CC": false
+            },
+            "compatibleMake": true,
+            "x1Status": "active",
+            "deviceAssignedinPPECMT": true,
+            "devicesConnected": true,
+            "surfableBootFile": true,
+            "inUnitSSIDEnabled": true,
+            "inUnitSSIDPersonalized": true,
+            "amenitySSIDEnabled": true,
+            "guestEnabled": true,
+            "recommendation": [
+                {
+                    "issue": "Account",
+                    "issueTypes": [
+                        "Multiple Accounts at the same location",
+                        "Incorrect Account Creation",
+                        "Bulk Master issues"
+                    ]
+                },
+                {
+                    "issue": "Devices",
+                    "issueTypes": [
+                        "Inventory",
+                        "Bootfile"
+                    ]
+                }
+            ],
+            "unitStatus": "healthy/unhealthy"
+        }
+    ]
+}
